@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1b763b30-4fab-46b3-a9f0-00961e37981a" version="1">
+  <Properties>
+    <Name>Builder On City</Name>
+    <Description>A QoL mod that makes builders spawn on every city. Credits to WildW for template.</Description>
+    <Created>1723482938</Created>
+    <Teaser>Mod that makes builders spawn on city creation.</Teaser>
+    <Authors>nautrw</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="Load_in_the_Lua_script">
+      <Properties>
+        <LoadOrder>350</LoadOrder>
+      </Properties>
+      <File>BuilderOnCity.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>BuilderOnCity.lua</File>
+  </Files>
+</Mod>
